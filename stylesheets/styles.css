@@ -1,0 +1,155 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    background: rgb(238, 149, 219);
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header {
+    flex: 0 1 auto;
+}
+
+.logo-text {
+    background: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 47px;
+    font-family: 'Notable', sans-serif;
+}
+
+.main-content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail-list {
+    flex: 0 1 auto;
+    order: 2;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20px 0;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.thumbnail-list::-webkit-scrollbar {
+    width: 15px;
+}
+.thumbnail-list::-webkit-scrollbar-thumb {
+    background-color: rgba(224, 19, 146, 0.932);
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+}
+.thumbnail-list::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px white;
+}
+
+.thumbnail-item {
+    display: inline-block;
+    min-width: 120px;
+    max-width: 120px;
+    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+
+    transition: transform 133ms ease-in-out;
+}
+
+.thumbnail-item:hover {
+    transform: scale(1.2);
+}
+
+.thumbnail-image {
+    display: block;
+    width: 100%;
+}
+
+.thumbnail-title {
+    display: block;
+    margin: 0;
+    padding: 4px 10px;
+    background: rgb(192, 50, 128);
+    color: rgb(202, 238, 255);
+    font-size: 18px;
+}
+
+.detail-image-container {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-image-frame {
+    position: relative;
+    text-align: center;
+    transition: transform 333ms;
+}
+
+.is-tiny {
+    transform: scale(0.001);
+    transition: transform 0ms;
+}
+
+.detail-image {
+    width:90%;
+}
+
+.detail-image-title {
+    position: absolute;
+    bottom: -16px;
+    left: 4px;
+
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
+    font-size: 40px;
+    font-family: 'Modak', cursive;
+}
+
+.hidden-detail .detail-image-container {
+    display: none;
+}
+
+.hidden-detail .thumbnail-list {
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden-detail .thumbnail-item {
+    max-width: 80%;
+}
+
+@media all and (min-width: 768px) {
+    .main-content {
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    .thumbnail-list {
+        flex-direction: column;
+        order: 0;
+        margin-left: 20px;
+        padding: 0 35px;
+    }
+
+    .thumbnail-item {
+        max-width: 260px;
+    }
+    .thumbnail-item + .thumbnail-item {
+        margin-top: 10px;
+    }
+}
