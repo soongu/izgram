@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d55d652-6f87-4e4f-a635-8e18223a21e8" name="Default Changelist" comment="" />
+    <list default="true" id="7d55d652-6f87-4e4f-a635-8e18223a21e8" name="Default Changelist" comment="[20.10.05] #1. README.md 추가">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iRe70mjWUEawX9D1TDzzSvVqHX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../coffeerun" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -26,11 +35,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601874661058</updated>
-      <workItem from="1601874662170" duration="354000" />
+      <workItem from="1601874662170" duration="559000" />
+      <workItem from="1601943689616" duration="316000" />
     </task>
+    <task id="LOCAL-00001" summary="[20.10.05] #1. README.md 추가">
+      <created>1601875157864</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601875157864</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[20.10.05] #1. README.md 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[20.10.05] #1. README.md 추가" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2345" y="275" key="FileChooserDialogImpl" timestamp="1601875222784">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2345" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601875222784" />
+    <state x="2443" y="417" key="Github.ShareDialog" timestamp="1601875043459">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2443" y="417" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601875043459" />
+    <state x="2318" y="221" key="Github.UntrackedFilesDialog" timestamp="1601875060577">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2318" y="221" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601875060577" />
+    <state x="2157" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601875171082">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2157" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601875171082" />
+    <state x="2228" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1601875030142">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2228" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601875030142" />
   </component>
 </project>

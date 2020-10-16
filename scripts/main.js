@@ -53,6 +53,7 @@ function hideDetails() {
     document.body.classList.add(HIDDEN_DETAIL_CLASS);
 }
 
+//꾸라야!!
 function showDetails() {
     'use strict';
     var frame = document.querySelector(DETAIL_FRAME_SELECTOR);
